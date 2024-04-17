@@ -28,6 +28,7 @@ test("Check if table data is sorted", async ({ page }) => {
   }
   console.log(valuesArray);
   expect(isSortedAscending(valuesArray)).toBe(true);
+  
 });
 function isSortedAscending(array) {
   for (let i = 0; i < array.length - 1; i++) {
